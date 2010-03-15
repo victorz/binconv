@@ -56,8 +56,8 @@ int main(int argc, char **argv)
             putchar('\n');
             if (*endptr != '\0')
               {
-                fprintf(stderr, "Could not process some binary numbers, "
-                        "please verify input is only ones and zeros.");
+                fprintf(stderr, "Could not process some binary numbers.\n"
+                        "Please verify input is only ones and zeros.\n");
                 exit(EXIT_FAILURE);
               }
           }
