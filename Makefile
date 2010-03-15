@@ -1,5 +1,6 @@
 CFLAGS = -Wall -pedantic
 TARGET = binconv
+CC = gcc
 
 all : $(TARGET)
 
